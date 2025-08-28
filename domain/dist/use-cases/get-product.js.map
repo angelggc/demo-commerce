@@ -1,0 +1,1 @@
+{"version":3,"file":"get-product.js","sourceRoot":"","sources":["../../src/use-cases/get-product.ts"],"names":[],"mappings":"AAUA,MAAM,CAAC,KAAK,UAAU,UAAU,CAC9B,IAAoB,EACpB,OAA0B;IAE1B,IAAI,CAAC,OAAO,CAAC,EAAE;QAAE,OAAO;IAExB,OAAO,MAAM,IAAI,CAAC,cAAc,CAAC,QAAQ,CAAC,OAAO,CAAC,EAAE,CAAC,CAAC;AACxD,CAAC"}

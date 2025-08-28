@@ -1,0 +1,1 @@
+{"version":3,"file":"mock-product-service.d.ts","sourceRoot":"","sources":["../../../src/services/mocks/mock-product-service.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,OAAO,EAAE,MAAM,2BAA2B,CAAC;AACzD,OAAO,KAAK,EAAE,cAAc,EAAE,MAAM,uBAAuB,CAAC;AAE5D,qBAAa,oBAAqB,YAAW,cAAc;IACzD,QAAQ,EAAE,OAAO,EAAE,CAAM;gBAEb,QAAQ,EAAE,OAAO,EAAE;IAIzB,QAAQ,CAAC,EAAE,EAAE,MAAM;IAInB,OAAO;CAGd"}
