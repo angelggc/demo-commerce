@@ -1,1 +1,0 @@
-{"version":3,"file":"get-product.d.ts","sourceRoot":"","sources":["../../src/use-cases/get-product.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,cAAc,EAAE,MAAM,gCAAgC,CAAC;AAErE,UAAU,cAAc;IACtB,cAAc,EAAE,cAAc,CAAC;CAChC;AAED,UAAU,iBAAiB;IACzB,EAAE,EAAE,MAAM,CAAC;CACZ;AAED,wBAAsB,UAAU,CAC9B,IAAI,EAAE,cAAc,EACpB,OAAO,EAAE,iBAAiB,sDAK3B"}

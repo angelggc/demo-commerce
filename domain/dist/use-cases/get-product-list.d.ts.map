@@ -1,1 +1,0 @@
-{"version":3,"file":"get-product-list.d.ts","sourceRoot":"","sources":["../../src/use-cases/get-product-list.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,cAAc,EAAE,MAAM,gCAAgC,CAAC;AAErE,MAAM,WAAW,kBAAkB;IACjC,cAAc,EAAE,cAAc,CAAC;CAChC;AAED,wBAAsB,eAAe,CAAC,IAAI,EAAE,kBAAkB,4CAE7D"}
