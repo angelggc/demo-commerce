@@ -1,4 +1,4 @@
-import type { Product, ProductService } from "demo-domain";
+import type { ProductService } from "demo-domain";
 import { type Database } from "better-sqlite3";
 
 interface ProductSQL {

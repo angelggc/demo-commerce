@@ -3,13 +3,13 @@ import { getProduct } from "./get-product.js";
 
 export interface UseCaseDeclaration {
   useCase: (deps: any, payload: any) => Promise<unknown>;
-  enable: boolean;
+  enable?: boolean;
 }
 
 export const domainUseCases = {
   getProduct: {
     useCase: getProduct,
-    enable: false,
+    enable: true,
   },
   getProductsList: {
     useCase: getProductsList,
