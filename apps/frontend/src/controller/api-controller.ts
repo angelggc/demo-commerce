@@ -4,8 +4,6 @@ export async function api(
   useCaseName: UseCaseName,
   payload?: Record<string, unknown>
 ) {
-  const useCase = domainUseCases[useCaseName];
-
   try {
     let response = await fetch(`http://localhost:3000/${useCaseName}`, {
       method: "POST",
