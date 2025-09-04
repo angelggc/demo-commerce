@@ -1,4 +1,4 @@
-import type { ProductService } from "../services/product-service.js";
+import type { ProductService } from "../../services/product-service.js";
 
 interface GetProductDeps {
   productService: ProductService;
