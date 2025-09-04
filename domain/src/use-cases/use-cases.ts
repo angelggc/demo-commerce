@@ -1,5 +1,5 @@
-import { getProductsList } from "./get-product-list.js";
-import { getProduct } from "./get-product.js";
+import { getProductsList } from "./products/get-product-list.js";
+import { getProduct } from "./products/get-product.js";
 
 export type UseCase<P = any, D = any, R = unknown> = (
   deps: D,

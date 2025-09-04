@@ -1,6 +1,6 @@
 import { describe, expect, test } from "vitest";
-import { MockedProductService } from "../services/mocks/mock-product-service.js";
 import { getProductsList } from "./get-product-list.js";
+import { MockedProductService } from "../../services/mocks/mock-product-service.js";
 
 describe("getProductList", async () => {
   const productService = new MockedProductService([
