@@ -15,4 +15,24 @@ export class MockedProductService implements ProductService {
   async findAll() {
     return this.products;
   }
+
+  async applyDiscount() {
+    return { id: "", name: "", price: 1 };
+  }
+
+  async editOne() {
+    return { id: "", name: "", price: 1 };
+  }
+
+  async getProductsWithDiscount() {
+    return [{ id: "", name: "", price: 1 }];
+  }
+
+  async save() {
+    return;
+  }
+
+  async updateMany() {
+    return [];
+  }
 }

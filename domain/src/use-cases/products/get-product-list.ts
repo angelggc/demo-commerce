@@ -1,4 +1,5 @@
 import type { ProductService } from "../../services/product-service.js";
+import type { UserService } from "../../services/user-service.js";
 
 export interface GetProductListDeps {
   productService: ProductService;

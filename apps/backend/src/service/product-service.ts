@@ -1,4 +1,4 @@
-import type { ProductService } from "demo-domain";
+import type { Product, ProductService } from "demo-domain";
 import { type Database } from "better-sqlite3";
 
 interface ProductSQL {
@@ -28,5 +28,25 @@ export class ProductServiceImplementation implements ProductService {
       .all();
 
     return products;
+  }
+
+  async applyDiscount() {
+    return { id: "", name: "", price: 1 };
+  }
+
+  async editOne() {
+    return { id: "", name: "", price: 1 };
+  }
+
+  async getProductsWithDiscount() {
+    return [{ id: "", name: "", price: 1 }];
+  }
+
+  async save() {
+    return;
+  }
+
+  async updateMany() {
+    return [];
   }
 }
