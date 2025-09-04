@@ -9,7 +9,6 @@ export default function Home() {
   useEffect(() => {
     async function fetchData() {
       const result: Product[] = await api("getProductsList");
-      console.log(result);
       if (result) {
         setProducts(result);
       }
