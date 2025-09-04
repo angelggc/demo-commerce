@@ -1,8 +1,13 @@
 import { getProductsList } from "./get-product-list.js";
 import { getProduct } from "./get-product.js";
 
+export type UseCase<P = any, D = any, R = unknown> = (
+  deps: D,
+  payload: P
+) => Promise<R>;
+
 export interface UseCaseDeclaration {
-  useCase: (deps: any, payload: any) => Promise<unknown>;
+  useCase: UseCase;
   enable?: boolean;
 }
 
@@ -16,9 +21,6 @@ export const domainUseCases = {
     enable: true,
   },
 } as const satisfies Record<string, UseCaseDeclaration>;
-
-export type UseCaseTypes =
-  (typeof domainUseCases)[keyof typeof domainUseCases]["useCase"];
 
 export const USE_CASE_NAME = Object.keys(domainUseCases).reduce((acc, key) => {
   acc[key] = key;

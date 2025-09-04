@@ -1,9 +1,14 @@
 import cors from "cors";
 import express from "express";
 import type { Request, Response } from "express";
-import { domainUseCases, type UseCaseName } from "demo-domain";
+import {
+  domainUseCases,
+  type UseCaseName,
+  type UseCaseTypes,
+} from "demo-domain";
 import sqlite from "better-sqlite3";
 import { ProductServiceImplementation } from "./service/product-service.js";
+import type { MergedDependencies } from "./types/dependencies.js";
 
 function createDb() {
   const db = sqlite("data/data.db");
@@ -28,7 +33,7 @@ app.use(
 
 app.use(express.json());
 
-const dependencies = {
+const dependencies: MergedDependencies<UseCaseTypes> = {
   productService: new ProductServiceImplementation(db),
 };
 
