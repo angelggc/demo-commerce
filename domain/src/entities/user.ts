@@ -13,11 +13,3 @@ export interface User extends Entity {
   password: string;
   status: UserStatus;
 }
-
-const user: User = {
-  id: "1",
-  name: "",
-  email: "",
-  password: "",
-  status: UserStatus.ACTIVE,
-};
