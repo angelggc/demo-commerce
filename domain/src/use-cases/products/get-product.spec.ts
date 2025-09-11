@@ -1,4 +1,4 @@
-/* import { describe, expect, test } from "vitest";
+import { describe, expect, test } from "vitest";
 import { getProduct } from "./get-product.js";
 import { MockedProductService } from "../../services/mocks/mock-product-service.js";
 
@@ -19,4 +19,3 @@ describe("GetProduct", async () => {
     expect(result).toBeUndefined();
   });
 });
- */

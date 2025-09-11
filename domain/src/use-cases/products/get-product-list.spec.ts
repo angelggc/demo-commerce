@@ -1,4 +1,4 @@
-/* import { describe, expect, test } from "vitest";
+import { describe, expect, test } from "vitest";
 import { getProductsList } from "./get-product-list.js";
 import { MockedProductService } from "../../services/mocks/mock-product-service.js";
 
@@ -15,4 +15,3 @@ describe("getProductList", async () => {
     expect(result).toHaveLength(3);
   });
 });
- */
