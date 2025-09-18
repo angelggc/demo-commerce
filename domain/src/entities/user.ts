@@ -13,3 +13,5 @@ export interface User extends Entity {
   password: string;
   status: UserStatus;
 }
+
+export type SecureUser = Omit<User, "password">;
