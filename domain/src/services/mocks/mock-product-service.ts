@@ -28,8 +28,8 @@ export class MockedProductService implements ProductService {
     return [{ id: "", name: "", price: 1 }];
   }
 
-  async save() {
-    return;
+  async save(item: Product) {
+    this.products.push(item);
   }
 
   async updateMany() {
