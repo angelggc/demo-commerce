@@ -1,6 +1,6 @@
-import type { EmailService } from "../services/email-service.js";
-import type { ProductService } from "../services/product-service.js";
-import type { UserService } from "../services/user-service.js";
+import type { EmailService } from "../../services/email-service.js";
+import type { ProductService } from "../../services/product-service.js";
+import type { UserService } from "../../services/user-service.js";
 
 export interface AddProductAndNotifyDeps {
   productService: ProductService;

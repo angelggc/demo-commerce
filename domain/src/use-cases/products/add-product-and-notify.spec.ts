@@ -1,8 +1,8 @@
 import { describe, expect, test, vi } from "vitest";
-import { MockedProductService } from "../services/mocks/mock-product-service.js";
+import { MockedProductService } from "../../services/mocks/mock-product-service.js";
 import { addProductAndNotify } from "./add-product-and-notify.js";
-import { MockedUserService } from "../services/mocks/mock-user-service.js";
-import { userMock } from "../entities/mocks/user-mock.js";
+import { MockedUserService } from "../../services/mocks/mock-user-service.js";
+import { userMock } from "../../entities/mocks/user-mock.js";
 
 describe("Add product and notify", async () => {
   const productService = new MockedProductService([]);
